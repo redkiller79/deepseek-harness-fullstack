@@ -43,7 +43,7 @@
       "patch": "./cordis.patch.yml"
     },
     "id": "dsh-fullstack-engineer",
-    "verifiedAgainst": "0.2.x",
+    "verifiedAgainst": "0.2.1-rc.5",
     "displayName": {
       "zh": "栈工",
       "en": "Stacker"
