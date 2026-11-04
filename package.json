@@ -1,0 +1,74 @@
+{
+  "name": "deepseek-harness-fullstack",
+  "version": "1.0.0",
+  "description": "Senior Full-Stack Engineer for DeepSeek Harness — bundles fullstack architecture, frontend design engineering and browser automation skills as callable tools.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "agents",
+    "skills",
+    "avatars",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "fullstack",
+    "frontend",
+    "browser-automation"
+  ],
+  "author": {
+    "name": "古飞月",
+    "url": "https://github.com/redkiller79"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redkiller79/deepseek-harness-fullstack.git"
+  },
+  "homepage": "https://github.com/redkiller79/deepseek-harness-fullstack#readme",
+  "bugs": {
+    "url": "https://github.com/redkiller79/deepseek-harness-fullstack/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "id": "dsh-fullstack-engineer",
+    "verifiedAgainst": "0.2.x",
+    "displayName": {
+      "zh": "栈工",
+      "en": "Stacker"
+    },
+    "profession": {
+      "zh": "全栈高级开发工程师",
+      "en": "Senior Full-Stack Engineer"
+    },
+    "defaultInitPrompt": {
+      "zh": "帮我开发一个功能，我会描述需求，请你先给出实现计划再动手写代码。",
+      "en": "Help me build a feature. I'll describe the requirements; give me an implementation plan before writing code."
+    },
+    "tags": [
+      {
+        "zh": "全栈开发",
+        "en": "Full-Stack Development"
+      },
+      {
+        "zh": "架构设计",
+        "en": "Architecture Design"
+      },
+      {
+        "zh": "代码质量",
+        "en": "Code Quality"
+      }
+    ]
+  }
+}

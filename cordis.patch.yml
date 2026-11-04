@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-fullstack-engineer
+      name: ./index.js

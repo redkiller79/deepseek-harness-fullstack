@@ -1,0 +1,13 @@
+# 统一换行符，避免 Windows 提交后 Linux 用户 clone 出现全文件 diff
+* text=auto eol=lf
+
+# 字体与图片是二进制，禁止任何换行转换
+*.ttf binary
+*.otf binary
+*.woff2 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# shell 脚本必须 LF，否则 macOS/Linux 上无法执行
+*.sh text eol=lf
